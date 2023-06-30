@@ -1,0 +1,105 @@
+/* Tropi */
+
+#tropi {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#tropi .container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 550px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#tropi .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+#tropi .title .title-text h1 {
+  font-size: 40px;
+}
+
+#tropi table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+#tropi th {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+#tropi td {
+  text-align: center;
+  color: white;
+  width: 25%;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+#tropi .trophy-box {
+  size: 100%;
+  height: 280px;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+#tropi .trophy-image {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+#tropi .trophy-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#tropi .trophy-count {
+  margin-top: 5px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 992px) {
+  #tropi .container {
+    width: 90%;
+    height: auto;
+    min-height: 550px;
+    margin-top: 40px;
+  }
+
+  #tropi table {
+    width: 100%;
+  }
+
+  #tropi th,
+  #tropi td {
+    width: auto;
+    padding: 15px 5px;
+  }
+
+  #tropi .trophy-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" size="32x32" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Already a Culers</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="img/logo.png" alt="" /></div>
+      <nav>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#players">Players</a></li>
+          <li><a href="#campnou">Camp Nou</a></li>
+          <li><a href="#tropi">Trophy</a></li>
+          <li>
+            <a href="register.html" class="action_btn">Become a Culers</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="dropdown_menu">
+        <ul>
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#players">Players</a></li>
+          <li><a href="#campnou">Camp Nou</a></li>
+          <li><a href="#tropi">Trophy</a></li>
+          <li>
+            <a href="#" class="action_btn">Become a Culers</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section id="login">
+      <div class="container">
+        <div class="welcome-box">
+          <div class="welcome-content">
+            <div class="welcome-text">
+              <h2>Selamat datang Culers!</h2>
+              <p>
+                Masukkan Informasi Login Anda untuk Petualangan anda di dunia
+                maya sebagai fans Barcelona FC
+              </p>
+              <p>
+                Ingat, kecintaan Anda kepada FC Barcelona adalah yang membawa
+                kami bersama!<br />
+                Visca barca, visca Catalunya
+              </p>
+              <button onclick="navigateToPage('register.html')" class="btn">
+                Become a Culers
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="logreg-box">
+          <div class="formbox">
+            <form action="#">
+              <h2>Already a Culers</h2>
+              <div class="input-box1">
+                <input type="email" required placeholder="Your Email..." />
+              </div>
+              <div class="input-box2">
+                <input type="password" required placeholder="Password..." />
+              </div>
+              <div class="btn-login">
+                <button type="submit" class="btn-login">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function navigateToPage(url) {
+        window.location.href = url;
+      }
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
